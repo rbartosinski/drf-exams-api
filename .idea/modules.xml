@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/drf-exams-api.iml" filepath="$PROJECT_DIR$/.idea/drf-exams-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../plantation/.idea/plantation.iml" filepath="$PROJECT_DIR$/../plantation/.idea/plantation.iml" />
     </modules>
   </component>
 </project>
