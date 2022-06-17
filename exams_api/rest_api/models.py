@@ -5,6 +5,7 @@ class Exam(models.Model):
     name = models.CharField(max_length=128)
     description = models.CharField(max_length=256)
     final_grade = models.IntegerField()
+    # owner/user can be authenticated via token
     owner = models.ForeignKey('auth.User', on_delete=models.CASCADE)
 
     def __str__(self):

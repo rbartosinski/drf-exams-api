@@ -15,5 +15,3 @@ exams_router.register(
     basename='exams-tasks',
     parents_query_lookups=['exam']
 )
-
-# tasks_router = router.register('tasks', TaskViewSet)
